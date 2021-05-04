@@ -1,0 +1,124 @@
+// importing variables
+
+@import url('css/variables.css');
+
+// css for getting colors
+
+// background colors
+.gbtn-bg-purple {
+  background-color: var(--gbtn-purple);
+}
+
+.gbtn-bg-black {
+  background-color: var(--gbtn-black);
+}
+
+.gbtn-bg-white {
+  background-color: var(--gbtn-white);
+}
+
+.gbtn-bg-green {
+  background-color: var(--gbtn-green);
+}
+
+.gbtn-bg-blue {
+  background-color: var(--gbtn-blue);
+}
+
+.gbtn-bg-yellow {
+  background-color: var(--gbtn-yellow);
+}
+
+.gbtn-bg-red {
+  background-color: var(--gbtn-red);
+}
+
+
+// text colors
+.gbtn-purple {
+  color: var(--gbtn-purple);
+}
+
+.gbtn-black {
+  color: var(--gbtn-black);
+}
+
+.gbtn-white {
+  color: var(--gbtn-white);
+}
+
+.gbtn-green {
+  color: var(--gbtn-green);
+}
+
+.gbtn-blue {
+  color: var(--gbtn-blue);
+}
+
+.gbtn-yellow {
+  color: var(--gbtn-yellow);
+}
+
+.gbtn-red {
+  color: var(--gbtn-red);
+}
+
+// general css init
+
+.gbtn {
+  margin: 0;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  line-height: inherit;
+  display: block;
+  
+  padding-top: 0.4em;
+  padding-bottom: 0.4em;
+  padding-right: 1em;
+  padding-left: 1em;
+
+}
+
+.gbtn:focus {
+  outline: 0 !important;
+}
+
+.gbtn-square {
+  border-radius: 0px;
+}
+
+.gbtn-curve-m {
+  border-radius: 4px;
+}
+
+.gbtn-curve-f {
+  border-radius: 100px;
+}
+
+.gbtn-primary, .gbtn-p {
+  border: none;
+}
+
+.gbtn-primary:hover, .gbtn-p:hover {
+  filter: brightness(90%) !important;
+}
+
+.gbtn-d {
+  background-color: var(--gbtn-gray);
+  border: none;
+  color: gray;
+  cursor: not-allowed;
+}
+
+.gbtn-shadow-purple-l {
+  box-shadow: 4px 4px 16px rgba(82, 0, 255, 0.225);
+}
+
+.gbtn-shadow-purple-m {
+  box-shadow: 4px 4px 20px rgba(82, 0, 255, 0.625);
+}
+
+.gbtn-shadow-purple-h {
+  box-shadow: 6px 6px 18px rgba(82, 0, 255, 0.825);
+}
