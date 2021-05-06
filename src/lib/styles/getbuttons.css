@@ -119,4 +119,58 @@
 .g_color-gray, .g_color-grey {
   color: var(--gbtn-gray);
 }
+
+.g_hover_fill-left {
+  border: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.g_hover_fill-left::before {
+  -webkit-transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  content: '';
+  height: 100%;
+  background: black;
+  position: absolute;
+  width: 1%;
+  top: 0;
+  left: 0;
+}
+
+.g_hover_fill-left.btn-text {
+  mix-blend-mode: screen;
+}
+
+.g_hover_fill-left:hover::before {
+  background: rgba(0, 0, 0, 0.36);
+  width: 100%;
+}
+
+.g_hover_fill-right {
+  border: none;
+  overflow: hidden;
+  position: relative;
+}
+
+.g_hover_fill-right::before {
+  -webkit-transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  content: '';
+  height: 100%;
+  background: black;
+  position: absolute;
+  width: 1%;
+  top: 0;
+  right: 0;
+}
+
+.g_hover_fill-right.btn-text {
+  mix-blend-mode: screen;
+}
+
+.g_hover_fill-right:hover::before {
+  background: rgba(0, 0, 0, 0.36);
+  width: 100%;
+}
 /*# sourceMappingURL=getbuttons.css.map */
