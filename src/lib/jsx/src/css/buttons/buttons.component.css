@@ -1,0 +1,33 @@
+.gbtn {
+  margin: 0;
+  padding: 0;
+  line-height: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: inherit;
+}
+
+.gbtn-primary {
+  padding: 0.6em;
+  background-color: var(--gbtn-blue);
+  color: var(--gbtn-white);
+  border: none;
+  border-radius: 6px;
+}
+
+.gbtn-secondary {
+  padding: 0.6em;
+  background-color: var(--gbtn-transparent);
+  color: var(--gbtn-blue);
+  border: 1px solid var(--gbtn-blue);
+  border-radius: 6px;
+}
+
+.gbtn-text {
+  padding: 0.6em;
+  background-color: var(--gbtn-transparent);
+  color: var(--gbtn-blue);
+  border: none;
+  border-radius: 6px;
+}
+/*# sourceMappingURL=buttons.component.css.map */
