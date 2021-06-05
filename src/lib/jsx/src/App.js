@@ -8,23 +8,22 @@ import TextButton from "./Components/Buttons/TextButton";
 function App() {
   return (
     <div className="App">
-      
-      <PrimaryButton 
-        TextContent={"Download"}
-        Animate={"tf-top"}
-        removeBoxShadowOnHover={true}
-      />
 
-      <SecondaryButton 
-        TextContent={"Download"} 
-        Animate={"tf-down"}
-      />
-      
-      <TextButton 
+      <PrimaryButton
         TextContent={"Download"}
         Animate={"tf-right"}
       />
-    
+
+      <SecondaryButton
+        TextContent={"Download"}
+        Animate={"tf-down"}
+      />
+
+      <TextButton
+        TextContent={"Download"}
+        Animate={"tf-right"}
+      />
+
       <PrimaryButton3D
         TextContent={"Download"}
         Animate={"tf-top"}
@@ -39,7 +38,6 @@ function App() {
         TextContent={"Download"}
         Animate={"tf-down"}
       />
-
 
     </div>
   );
