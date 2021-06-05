@@ -10,7 +10,7 @@ Love Buttons? Get so many button designs. Click Click!!
   ![Size](https://img.shields.io/github/repo-size/DesignSystemsOSS/getbuttons.io)
   ![Language](https://img.shields.io/github/languages/top/DesignSystemsOSS/getbuttons.io)
   ![Maintained](https://img.shields.io/maintenance/yes/2021)
-  ![License](https://img.shields.io/badge/license-Apache-brightgreen)
+  ![License](https://img.shields.io/badge/license-MIT-brightgreen)
 
 
 ## Introduction
