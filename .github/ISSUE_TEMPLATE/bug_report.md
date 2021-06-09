@@ -7,7 +7,6 @@ assignees: ''
 
 ---
 
-
 ## Are you a part of LGM SOC' 21 ❔
 - [ ] Yes ✅
 - [ ] No  ❎
