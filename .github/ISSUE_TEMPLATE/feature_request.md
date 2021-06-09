@@ -7,14 +7,6 @@ assignees: ''
 
 ---
 
----
-name: Feature request
-about: Suggest ideas for this project
-title: ''
-labels: 'Type: Enhancement'
-assignees: ''
-
----
 
 ## Are you a part of LGM SOC' 21 ❔
 - [ ] Yes ✅
