@@ -48,7 +48,7 @@ Congratulations! All the setup related things are done now you can go further :)
 
 Raising issues really helps this project to grow more and have great usability. There are some type of issues which are listed in the screenshot below.
 
-![Issue Template Demo Screenshot](src/asset/screenshoots/issue.jpg)
+![Issue Template Demo Screenshot](src/asset/screenshoots/issues.jpg)
 
 All the issues have pre-designed content template. If you have selected `Bug Report` issue type then precisely explain your report or the issue you have faced. Try adding screenshots (if possible) for more clarification. 
 
