@@ -11,7 +11,7 @@ In order to contribute, your first step is to fork this project. Creating a fork
 
 Just go to the main page of this project and click the `fork` button at the top-right section.
 
-![Fork Demo Screenshot](src/bin/contribution_image_assets/fork.png)
+![Fork Demo Screenshot](src/asset/screenshoots/fork.jpg)
 
 ### Step 02: Clone the forked repository to your system
 Now you need to clone the forked repository to your system and then all the code/docs changes that you'll make, will be in the cloned repository only.
@@ -48,7 +48,7 @@ Congratulations! All the setup related things are done now you can go further :)
 
 Raising issues really helps this project to grow more and have great usability. There are some type of issues which are listed in the screenshot below.
 
-![Issue Template Demo Screenshot](src/bin/contribution_image_assets/issue_template.png)
+![Issue Template Demo Screenshot](src/asset/screenshoots/issue.jpg)
 
 All the issues have pre-designed content template. If you have selected `Bug Report` issue type then precisely explain your report or the issue you have faced. Try adding screenshots (if possible) for more clarification. 
 
