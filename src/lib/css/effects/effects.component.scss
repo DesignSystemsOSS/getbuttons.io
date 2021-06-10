@@ -1,0 +1,46 @@
+
+.tf {
+  
+  &-right {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: translateX(4px);
+    }
+  }
+
+  &-left {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: translateX(-4px);
+    }
+  }
+
+  &-top {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: translateY(-4px);
+    }
+  }
+
+  &-bottom {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: translateY(4px);
+    }
+  }
+
+  &-up {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+
+  &-down {
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      transform: scale(0.9);
+    }
+  }
+  
+}

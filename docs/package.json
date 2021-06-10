@@ -1,5 +1,5 @@
 {
-  "name": "jsx",
+  "name": "docs",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,9 +9,6 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "eslint": "^7.25.0",
-    "stylelint": "^9.3.0",
-    "stylelint-config-standard": "^18.3.0",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
@@ -37,19 +34,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "eslint": "^7.25.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "stylelint": "^9.3.0",
-    "stylelint-config-standard": "^18.3.0"
-  },
-  "peerDependencies": {
-    "eslint": "^7.25.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "stylelint": "^9.3.0",
-    "stylelint-config-standard": "^18.3.0"
   }
 }
