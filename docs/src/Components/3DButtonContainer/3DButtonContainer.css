@@ -1,0 +1,9 @@
+div.ThreeDimensionalButtonContainer > div.sampleButtons {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: auto auto auto;
+      grid-template-columns: auto auto auto;
+  -webkit-transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+          transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0, 0);
+}
+/*# sourceMappingURL=3DButtonContainer.css.map */

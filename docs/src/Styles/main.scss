@@ -1,0 +1,33 @@
+
+// external imports - fonts, icons and others
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+// importing viewable components css
+@import url("./Home/Home.view.css");
+
+// importing components css
+@import url("../Components/Header/Header.css");
+@import url("../Components/Footer/Footer.css");
+@import url("../Components/3DButtonContainer/3DButtonContainer.css");
+@import url("../Components/3DButtonContainer/3DButton/3DButton.css");
+
+// importing variables
+@import url("./variables/variables.css");
+
+
+body {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1400px;
+}
+
+a, .link {
+  text-decoration: none;
+  color: rgb(82, 82, 255);
+
+  &:hover {
+    background-color: rgba(41, 41, 255, 0.525);
+    color: var(--docs-white);
+  }
+}

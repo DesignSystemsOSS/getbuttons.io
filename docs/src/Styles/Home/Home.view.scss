@@ -1,0 +1,74 @@
+div.Home {
+
+  > div.introduction-container {
+    display: grid;
+    grid-template-columns: auto 32%;
+    align-items: center;
+
+
+    > div.introduction-description-section {
+      
+      > h1.massive-headline {
+        font-weight: 800;
+        font-size: 76px;
+        width: 60%;
+
+        > button.sample-button-primary {
+          font-family: inherit;
+          font-size: 62px;
+          padding: 6px;
+          border-radius: 6px;
+          border: none;
+          color: var(--docs-white);
+          background-color: var(--docs-black);
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            transform: translateY(-4px);
+            box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.320);
+          }
+
+        }
+
+        > button.sample-button-raised {
+          font-family: inherit;
+          font-size: 62px;
+          padding: 6px;
+          border-radius: 6px;
+          border: none;
+          color: var(--docs-black);
+          background-color: var(--docs-white);
+          transition: all 0.3s ease-in-out;
+
+          &:hover {
+            color: var(--docs-white);
+            transform: translateY(-4px);
+            background-color: rgba(0, 38, 255, 0.616);
+            box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.320);
+          }
+        }
+
+      }
+
+      > span.links-layer > ul.links-list {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        list-style: none;
+  
+        > li.link-item:nth-child(1) {
+          margin-right: 0.5em;
+        }
+
+        > li.link-item:not(:nth-child(1)) {
+          margin-left: 0.5em;
+          margin-right: 0.5em;
+        }
+  
+      }
+
+    }
+
+  }
+
+}

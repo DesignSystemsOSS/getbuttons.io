@@ -2,8 +2,8 @@
     "version": 3,
     "mappings": "",
     "sources": [
-        "Footer.component.scss"
+        "Footer.scss"
     ],
     "names": [],
-    "file": "Footer.component.css"
+    "file": "Footer.css"
 }

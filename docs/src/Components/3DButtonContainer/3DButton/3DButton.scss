@@ -1,0 +1,138 @@
+
+// - basic settings
+$font-size: 24px;
+$font-color: rgba(255, 255, 255, 1);
+$button-color: rgba(0, 0, 0, 1);
+$button-color-border: rgba(0, 0, 0, 0.7);
+$button-color-shadow: rgba(0, 0, 0, 0.5);
+$button-color-blue: rgb(117, 117, 255);
+$button-color-blue-shadow: rgba(117, 117, 255, 0.4);
+$button-color-blue-border: rgb(81, 81, 255);
+
+
+$bg: rgba(20, 120, 150, 1);
+
+span.ThreeDimensionalButton {
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+
+  > span.ButtonTopContent {
+
+    > text.button-text {
+      display: inline-block;
+      margin: 30px;
+      cursor: pointer;
+      color: $font-color;
+      text-align: center;
+
+      display: block;
+      background: $button-color;
+      padding: 20px;    
+      position: relative;
+      // transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+      box-shadow: -20px 20px 10px $button-color-shadow;
+      transition: all 0.5s ease-in-out;
+      box-shadow: -26px 26px 16px $button-color-shadow;
+      
+    &::before{
+      display: block;
+      content:"";
+      position: absolute;
+      width: 20px;
+      height: 100%;
+      left: -20px;
+      top: 10px;
+      background: $button-color-border;
+      transform: rotate(0deg) skewY(-45deg);
+    }
+      
+    &::after{
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: -10px;
+        height: 20px;
+        width: 100%;
+        transform: rotate(0deg) skewX(-45deg); 
+        background: $button-color-border;
+        transform: rotate(45deg) scewY(-45deg);
+    }
+    
+    &:hover{
+      transform: perspective(1000px) translate(-10px, 10px);
+      box-shadow: -20px 20px 18px $button-color-shadow;
+    }    
+
+    i{
+      color: $font-color;
+      font-size: $font-size;
+    }
+    }
+
+  }
+
+  &-Blue {
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+
+  > span.ButtonTopContent {
+
+    > text.button-text {
+      display: inline-block;
+      margin: 30px;
+      cursor: pointer;
+      color: $font-color;
+      text-align: center;
+
+      display: block;
+      background: $button-color-blue;
+      padding: 20px;    
+      position: relative;
+      // transform: perspective(1000px) rotate(-30deg) skew(25deg) translate(0,0);
+      box-shadow: -20px 20px 10px $button-color-blue-shadow;
+      transition: all 0.5s ease-in-out;
+      box-shadow: -26px 26px 16px $button-color-blue-shadow;
+      
+    &::before{
+      display: block;
+      content:"";
+      position: absolute;
+      width: 20px;
+      height: 100%;
+      left: -20px;
+      top: 10px;
+      background: $button-color-blue-border;
+      transform: rotate(0deg) skewY(-45deg);
+    }
+      
+    &::after{
+        display: block;
+        content: "";
+        position: absolute;
+        bottom: -20px;
+        left: -10px;
+        height: 20px;
+        width: 100%;
+        transform: rotate(0deg) skewX(-45deg); 
+        background: $button-color-blue-border;
+        transform: rotate(45deg) scewY(-45deg);
+    }
+    
+    &:hover{
+      transform: perspective(1000px) translate(-10px, 10px);
+      box-shadow: -20px 20px 18px $button-color-blue-shadow;
+    }    
+
+    i{
+      color: $font-color;
+      font-size: $font-size;
+    }
+    }
+
+  }
+  }
+
+}
