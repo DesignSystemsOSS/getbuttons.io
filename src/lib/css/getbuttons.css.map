@@ -1,9 +1,0 @@
-{
-    "version": 3,
-    "mappings": "AACA,OAAO,CAAC,gCAAI;AAGZ,OAAO,CAAC,sCAAI;AAGZ,OAAO,CAAC,sCAAI;AAGZ,OAAO,CAAC,4CAAI",
-    "sources": [
-        "getbuttons.scss"
-    ],
-    "names": [],
-    "file": "getbuttons.css"
-}
