@@ -60,4 +60,16 @@
   /* For IE 5.5 - 7 */
   filter: progid:DXImageTransform.Microsoft.Shadow(Strength=4, Direction=180, Color='#000000');
 }
+
+.gbtn-color-fade-in {
+  background-color: var(--gbtn-blue);
+  border: 1px solid;
+  border-radius: 6px;
+  color: var(--gbtn-white);
+  padding: var(--gbtn-padding);
+  opacity: 0.6;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.gbtn-color-fade-in:hover {opacity: 1}
 /*# sourceMappingURL=buttons.component.css.map */
