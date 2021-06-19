@@ -7,8 +7,10 @@ assignees: ''
 
 ---
 
-**Paste the screenshot or link to your design**
+- Paste the screenshot or link of your design 📷
 
-**Is your design request related to issue?**
 
-**Add any additional imformation(optional)**
+- Is your design request related to an issue❓
+
+
+- Add any additional information that you want us to know (optional) 📋
