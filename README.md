@@ -21,12 +21,6 @@ Love Buttons? Get so many button designs. Click Click!!
  <h2>GetButtons.io by The DesignSystems</h2>
  
 
-
-
-
-
-
-
 ## Introduction
 GetButtons.io is a React-based button library, it will also contains pre-defined class based CSS methods. By using this project you can apply both external and internal CSS 
 simultaneously. Getbuttons.io will contain clean and sleek design which will make user to use it anywhere. There much more stuff which is going to come. And Let's build it together. You can refer the the points described below in order to use this project.
