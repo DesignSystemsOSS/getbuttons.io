@@ -72,4 +72,22 @@
   cursor: pointer;
 }
 .gbtn-color-fade-in:hover {opacity: 1}
+
+.gbtn-ripple-on-click {
+  border-radius: 6px;
+  padding: var(--gbtn-padding);
+  color: var(--gbtn-white);
+  background-color: var(--gbtn-blue);
+  transition: 0.7s;
+  cursor: pointer;
+}
+.gbtn-ripple-on-click:hover {
+  background: var(--gbtn-blue) radial-gradient(circle, transparent 1%, var(--gbtn-blue) 1%) center/15000%;
+}
+.gbtn-ripple-on-click:active {
+  background-color: var(--gbtn-white);
+  background-size: 100%;
+  transition: 0s;
+}
+
 /*# sourceMappingURL=buttons.component.css.map */
