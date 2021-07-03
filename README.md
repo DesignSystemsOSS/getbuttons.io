@@ -51,7 +51,7 @@ We are open to contributions. On a note, the deployed branch is `master` we will
 We want to build a great community where all the developer/designer or people in general have a great behavior which are being described in the [Code of Conduct](CODE_OF_CONDUCT.md)
 
 Please adhere towards our Code of Conduct.
-
+<br>
 >## Open Source Program ❣️
  This Project is a part of the following program
 
