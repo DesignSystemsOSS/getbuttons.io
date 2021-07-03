@@ -51,8 +51,9 @@ We are open to contributions. On a note, the deployed branch is `master` we will
 We want to build a great community where all the developer/designer or people in general have a great behavior which are being described in the [Code of Conduct](CODE_OF_CONDUCT.md)
 
 Please adhere towards our Code of Conduct.
-<br>
->## Open Source Program ❣️
+
+
+## Open Source Program ❣️
  This Project is a part of the following program
 
 ![image](https://letsgrowmore.in/wp-content/uploads/2021/05/cropped-growmore-removebg-preview.png)
