@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+    <link rel="icon" href="%PUBLIC_URL%/images.png" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#000000" />
     <meta
@@ -24,7 +24,33 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <title>React App</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>GetButtons.io
+</title>
+<script>
+  // Get current title and icon
+var title = $('title').text();
+var favicon = $('link[rel=icon]').attr('href');
+var newtitle = 'Please Visit Again!';
+
+// Active
+window.addEventListener('focus', resetTitleicon);
+
+// Inactive
+window.addEventListener('blur', changeTitleicon);
+
+// Change page title and icon
+function changeTitleicon(){
+ $("title").text(newtitle); 
+ $('link[rel=icon]').attr('href', 'folded.png');
+}
+
+// Reset the page title and icon
+function resetTitleicon(){
+ $('title').text(title);
+ $('link[rel=icon]').attr('href', 'images.png');
+}
+</script>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
