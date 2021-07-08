@@ -6,10 +6,10 @@
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "eslint": "^7.25.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
-    "eslint": "^7.25.0",
     "stylelint": "^9.3.0",
     "stylelint-config-standard": "^18.3.0",
     "web-vitals": "^1.0.1"
@@ -40,6 +40,8 @@
   },
   "devDependencies": {
     "eslint": "^7.25.0",
+    "husky": "^7.0.1",
+    "lint-staged": "^11.0.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "stylelint": "^9.3.0",
@@ -51,5 +53,19 @@
     "react-dom": "^17.0.2",
     "stylelint": "^9.3.0",
     "stylelint-config-standard": "^18.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-pull": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "eslint . --fix", "git add"
+    ],
+    "src/**/*.css": [
+      "stylelint --syntax css --fix", "git add"
+    ]
   }
 }
